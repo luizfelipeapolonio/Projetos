@@ -1,0 +1,115 @@
+body {
+    background: rgb(230, 154, 13);
+    font: normal 15pt Arial;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+section {
+    background: rgb(230, 154, 13);
+    width: 500px;
+    padding: 50px;
+    padding-bottom: 30px;
+    margin: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    /*box-sizing: border-box; --> 
+      Mantém o tamanho da altura fixo, definido em width
+      não importando os tamanhos definidos no padding
+    */
+}
+
+div#cronometro {
+    font: bold 30pt Arial;
+    color: white;
+}
+
+div#botoes {
+    /*background: white;*/
+    margin-top: 50px;
+}
+
+div#limp {
+    margin-top: 5px;
+}
+
+input.botao {
+    background:rgb(230, 154, 13);
+    font: bold 15pt Arial;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    width: 5.2em; /* em é a unidade de medida de acordo com a fonte */
+}
+
+input.botao:hover {
+    background: white;
+    color: black;
+
+}
+
+input.botao:disabled {
+    background: rgba(128, 128, 128, 0.514);
+    color: white;
+}
+
+input#btniniciar {
+    margin-right: 10px;
+}
+
+input#btnpausar {
+    margin-right: 10px;
+}
+
+input#btnresetar {
+    margin-right: 10px;
+}
+
+input#btnlimpar {
+    font: bold 12pt Arial;
+    padding: 8px;
+}
+
+select {
+    background:rgb(230, 154, 13);
+    font: italic 18pt Arial;
+    color: white;
+    text-align: center;
+    border: none;
+    width: 200px;
+    overflow: auto;
+}
+
+
+/* ---- Estilizando Scrollbar do Select ---- */
+select::-webkit-scrollbar {
+    width: 10px; /* largura do scrollbar */
+}
+
+/* Propriedades da trilha do scroll */
+select::-webkit-scrollbar-track {
+    /*background:rgb(168, 110, 2);*/
+    background: rgba(0, 0, 0, 0.377);
+    border-radius: 5px;
+}
+
+/* Propriedades da barra do scroll em si */
+select::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5px;
+}
+/* ------------------------------------------ */
+
+footer {
+    color: white;
+    text-align: center;
+}

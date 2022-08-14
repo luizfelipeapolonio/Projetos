@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Cronômetro</h1>
+    </header>
+    <section>
+        <div id="cronometro">
+            <span id="hour">00</span>:<span id="min">00</span>:<span id="sec">00</span>:<span id="milisec">00</span>
+        </div>
+        <div id="botoes">
+            <input type="button" class="botao" id="btniniciar" value="Iniciar" onclick="start()">
+            <input type="button" class="botao" id="btnpausar" value="Pausar" onclick="pause()" disabled>
+            <input type="button" class="botao" id="btnresetar" value="Resetar" onclick="reset()" disabled>
+            <input type="button" class="botao" id="btnguardar" value="Guardar" onclick="storage()" disabled>
+        </div>
+        <br><br>
+        <div id="tab">
+            <select id="seltimes" size="5">
+
+            </select>
+        </div>
+        <br>
+        <div id="limp">
+            <input type="button" class="botao" id="btnlimpar" value="Limpar" onclick="clean()">
+        </div>
+    </section>
+    <footer>
+        <p>
+            &copy; FelipeDevelopment
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -2,4 +2,4 @@
 
 Cronômetro que marca os tempos, feito com HTML, CSS e Javascript Vanilla
 
-<img src="gif/cronometro.gif" alt="Gif demonstração do projeto" />
+<img src="./gif/cronometroGIF.gif" alt="Gif demonstração do projeto" />
